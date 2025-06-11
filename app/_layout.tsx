@@ -38,6 +38,7 @@ export default function RootLayout() {
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="index" />
         <Stack.Screen name="welcome" />
+        <Stack.Screen name="signin" />
         <Stack.Screen name="onboarding" />
         <Stack.Screen name="paywall" />
         <Stack.Screen name="(tabs)" />

@@ -122,9 +122,9 @@ export default function WelcomeScreen() {
   };
 
   const handleEmailSignIn = () => {
-    // In a real app, navigate to email sign in form
+    // Navigate to email sign in screen
     handleCloseModal();
-    router.push('/(tabs)');
+    router.push('/signin');
   };
 
   const toggleDarkMode = () => {
